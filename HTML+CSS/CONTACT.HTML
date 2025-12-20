@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLLEGE EVENT WEBSITE</title>
     <link rel="style stylesheet" href="CONTACT.CSS"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -21,10 +22,55 @@
                <span><a  id="nav" href="CLUB.HTML">CLUB</a></span>
                <span><a  id="nav" href="EVENT.HTML">EVENTS</a></span> 
                <span><a  id="nav" href="GROUP.HTML">GROUP</a></span>
-               <span><a id="nav"   href="SIGNUP.HTML">CONTACT</a></span> 
-               <span><a id="signup"   href="Sign up.HTML">Sign up</a></span> 
+               <span><a id="nav"   href="CONTACT.HTML">CONTACT</a></span> 
+               <span><a id="signup"  href="SIGNUP.HTML">Login</a></span> 
               </UL>
                
         </div>
       </div>
     </nav>
+
+   <section class="contact-section">
+    <div class="contact-container">
+
+        <h1>Contact Us</h1>
+        <p>Have questions about the event? Reach out to us anytime!</p>
+
+        <div class="contact-content">
+
+            <!-- Left side info -->
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Phone:</strong> +91 9876543210</p>
+                <p><strong>Email:</strong> eventteam@gmail.com</p>
+                <p><strong>Address:</strong> ABES Engineering College, Ghaziabad</p>
+
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="text" id="subject" placeholder="Subject">
+                <textarea id="message" placeholder="feedback"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</body>
+</html>

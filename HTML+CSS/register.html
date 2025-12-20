@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration | College Event Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="register.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- EVENT REGISTRATION FORM -->
+<div class="registration-container">
+    <form class="registration-form" id="eventForm">
+
+        <h2>Event Registration</h2>
+
+        <!-- Student Name -->
+        <div class="form-group">
+            <label for="studentName">Student Name</label>
+            <input type="text" id="studentName" name="studentName" placeholder="Enter your name" required>
+        </div>
+
+        <!-- Roll Number -->
+        <div class="form-group">
+            <label for="rollNo">Roll Number</label>
+            <input type="text" id="rollNo" name="rollNo" placeholder="Enter roll number" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+
+        <!-- Phone -->
+        <div class="form-group">
+            <label for="phone">Mobile Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter mobile number" required>
+        </div>
+
+        <!-- Event Name -->
+        <div class="form-group">
+            <label for="eventName">Event Name</label>
+            <select id="eventName" name="eventName" required>
+                <option value="">-- Select Event --</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Cultural Fest">Cultural Fest</option>
+                <option value="Sports Meet">Sports Meet</option>
+                <option value="Coding Contest">Coding Contest</option>
+            </select>
+        </div>
+
+        <!-- Department -->
+        <div class="form-group">
+            <label for="department">Department</label>
+            <select id="department" name="department" required>
+                <option value="">-- Select Department --</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="ME">Mechanical</option>
+            </select>
+        </div>
+
+        <!-- Year -->
+        <div class="form-group">
+            <label for="year">Year</label>
+            <select id="year" name="year" required>
+                <option value="">-- Select Year --</option>
+                <option value="1st">1st Year</option>
+                <option value="2nd">2nd Year</option>
+                <option value="3rd">3rd Year</option>
+                <option value="4th">4th Year</option>
+            </select>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="submit-btn">Register</button>
+
+    </form>
+</div>
+
+<!-- JavaScript -->
+<script src="register.js"></script>
+
+</body>
+</html>

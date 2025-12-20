@@ -91,3 +91,78 @@ html {
   border-radius: 8px;
  
 }
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: beige;
+}
+
+/* Form Box */
+.form {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.heading h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a5298;
+}
+
+/* Input Fields */
+.username input,
+.password input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.username input:focus,
+.password input:focus {
+    border-color: #2a5298;
+}
+
+/* Login Button */
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a5298;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #1e3c72;
+}
+
+/* Bottom Links */
+.bottom {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.bottom a {
+    color: #2a5298;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
